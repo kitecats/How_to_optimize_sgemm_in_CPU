@@ -171,7 +171,7 @@ void bl_sgemm(
    1. **循环展开（是优化的重点）**
    2. 寄存器缓存（寄存器结果重复利用）
 
-   <img src="D:\typora\images\image-20240730165041352.png" alt="image-20240730165041352" style="zoom:50%;" />
+   <img src="./image/step1_2.png" alt="image-20240730165041352" style="zoom:50%;" />
 
    优化后的代码如下：
 
