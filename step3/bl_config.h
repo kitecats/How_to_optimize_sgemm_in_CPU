@@ -57,9 +57,11 @@ extern "C" {
 //#define DGEMM_NC 2048
 //#define DGEMM_KC 256
 
-#define DGEMM_MC 16
-#define DGEMM_NC 12288
+#define DGEMM_MC 512
+#define DGEMM_NC 512
 #define DGEMM_KC 512
+#define DGEMM_NR 8
+#define DGEMM_MR 8
 
 // End extern "C" construct block.
 #ifdef __cplusplus
